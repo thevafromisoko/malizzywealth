@@ -3,29 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Malizzy Wealth | Model • Fashion • Music</title>
+  <title>Malizzy Wealth</title>
   <style>
-    * {margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif;}
-    body {color:#222; background:#fff; line-height:1.6;}
-    header {height:100vh; background:url('malizzyhero.jpg') center/cover no-repeat; display:flex; align-items:center; justify-content:center; text-align:center; color:#fff; position:relative;}
-    header::after {content:""; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.45);}
-    header .content {position:relative; z-index:2;}
-    header h1 {font-size:3rem; margin-bottom:0.5rem;}
-    header p {font-size:1.2rem; letter-spacing:2px;}
-    section {padding:60px 20px; max-width:1100px; margin:auto;}
-    h2 {font-size:2rem; margin-bottom:20px; text-align:center;}
-    .about {text-align:center; max-width:800px; margin:auto;}
-    .grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:20px;}
-    .grid img {width:100%; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1);}
-    .music iframe {width:100%; height:120px; border:none; border-radius:8px;}
-    .contact {text-align:center;}
-    .contact a {display:inline-block; margin:10px; padding:12px 25px; background:#000; color:#fff; border-radius:30px; text-decoration:none; transition:0.3s;}
-    .contact a:hover {background:#444;}
-    footer {text-align:center; padding:30px; background:#000; color:#fff;}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      height: 100vh;
+      background: url('malizzyhero.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    header .content {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .grid img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f4f4f4;
+    }
   </style>
 </head>
 <body>
-
   <!-- Hero Section -->
   <header>
     <div class="content">
@@ -34,55 +68,59 @@
     </div>
   </header>
 
-  <!-- About -->
-  <section class="about">
+  <!-- About Section -->
+  <section>
     <h2>About Me</h2>
     <p>
-      I’m Malizzy Wealth — a Nigerian fashion model, unisex fashion designer, and music artist.  
-      With experience in modeling and a passion for fashion, I create designs that speak to both men and women.  
-      Beyond fashion, I’ve released singles and connect with my audience through streaming and lifestyle content.  
+      I’m Malizzy Wealth — a Nigerian fashion model, unisex fashion designer, and music artist. 
+      With experience in modeling and a passion for fashion, I create designs that speak to both 
+      men and women. Beyond fashion, I’ve released singles and connect with my audience through 
+      streaming and lifestyle content.
     </p>
   </section>
 
-  <!-- Portfolio -->
+  <!-- Portfolio Section -->
   <section>
     <h2>Modeling Portfolio</h2>
     <div class="grid">
-      <img src="https://raw.githubusercontent.com/thevafromisoko/malizzywealth/main/malizzybikini.jpg" alt="Malizzy in white bikini">
-      <img src="https://scontent.flos5-1.fna.fbcdn.net/v/t39.30808-6/xxxx.jpg" alt="Facebook Portfolio Photo">
-      <img src="https://scontent.flos5-1.fna.fbcdn.net/v/t39.30808-6/yyyy.jpg" alt="Facebook Portfolio Photo">
+      <img src="malizzybikini.jpg" alt="Malizzy in white bikini">
+      <img src="https://via.placeholder.com/400x500.png?text=Portfolio+Image+1" alt="Portfolio Photo">
+      <img src="https://via.placeholder.com/400x500.png?text=Portfolio+Image+2" alt="Portfolio Photo">
     </div>
   </section>
 
-  <!-- Fashion -->
+  <!-- Fashion Section -->
   <section>
     <h2>Fashion Designs</h2>
     <div class="grid">
-      <img src="https://scontent.flos5-1.fna.fbcdn.net/v/t39.30808-6/zzzz.jpg" alt="Unisex fashion design">
-      <img src="https://scontent.flos5-1.fna.fbcdn.net/v/t39.30808-6/wwww.jpg" alt="Unisex fashion design">
+      <img src="https://via.placeholder.com/400x500.png?text=Unisex+Fashion+1" alt="Unisex fashion design">
+      <img src="https://via.placeholder.com/400x500.png?text=Unisex+Fashion+2" alt="Unisex fashion design">
     </div>
   </section>
 
-  <!-- Music -->
-  <section class="music">
+  <!-- Music Section -->
+  <section>
     <h2>My Music</h2>
-    <p style="text-align:center;">Listen to some of my singles:</p>
-    <iframe src="https://open.spotify.com/realmalizzy/song/you-know"></iframe>
-    <iframe src="https://audiomack.com/realmalizzy/song/you-know"></iframe>
+    <p>Listen to some of my singles:</p>
+    <ul>
+      <li><a href="#">🎵 Track 1</a></li>
+      <li><a href="#">🎵 Track 2</a></li>
+      <li><a href="#">🎵 Track 3</a></li>
+    </ul>
   </section>
 
-  <!-- Contact -->
+  <!-- Contact Section -->
   <section class="contact">
     <h2>Bookings & Contact</h2>
     <p>For collaborations, bookings, or inquiries, reach out directly:</p>
-    <a href="mailto:bookmalizzy@studioplae.com.ng">Email Me</a>
-    <a href="https://wa.me/234XXXXXXXXXX">WhatsApp</a>
-    <a href="https://instagram.com/malizzywealth">Instagram</a>
+    <a href="mailto:someone@example.com">Email Me</a>
+    <a href="https://wa.me/234XXXXXXXXXX" target="_blank">WhatsApp</a>
+    <a href="https://instagram.com/malizzywealth" target="_blank">Instagram</a>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 Malizzy Wealth | Designed with ❤️</p>
   </footer>
-
 </body>
 </html>
